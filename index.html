@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>藤野保温工業株式会社 | 保温・保冷・断熱工事の専門企業</title>
+<meta name="description" content="藤野保温工業株式会社は秋田県羽後町を拠点に、保温・保冷・断熱工事を手がける専門企業です。">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--navy:#1a2744;--navy-light:#243455;--gray:#4a5568;--gray-light:#e2e8f0;--accent:#3b82f6;--white:#ffffff;--bg:#f7fafc}
+body{font-family:"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;color:#2d3748;line-height:1.8;background:var(--bg)}
+a{color:var(--accent);text-decoration:none}
+
+/* Header */
+.header{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 100%);color:var(--white);padding:0}
+.header-inner{max-width:1000px;margin:0 auto;padding:60px 20px 50px;text-align:center}
+.header h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:700;letter-spacing:.08em;margin-bottom:12px}
+.header .subtitle{font-size:clamp(.9rem,2vw,1.1rem);opacity:.85;letter-spacing:.15em}
+.header-bar{height:4px;background:linear-gradient(90deg,var(--accent),#60a5fa,var(--accent))}
+
+/* Nav */
+.nav{background:var(--white);border-bottom:1px solid var(--gray-light);position:sticky;top:0;z-index:100}
+.nav ul{max-width:1000px;margin:0 auto;display:flex;justify-content:center;gap:0;list-style:none;flex-wrap:wrap}
+.nav a{display:block;padding:14px 24px;font-size:.9rem;color:var(--navy);font-weight:600;letter-spacing:.05em;transition:background .2s}
+.nav a:hover{background:var(--gray-light)}
+
+/* Sections */
+.section{max-width:1000px;margin:0 auto;padding:60px 20px}
+.section-title{font-size:1.5rem;color:var(--navy);font-weight:700;margin-bottom:8px;letter-spacing:.05em}
+.section-bar{width:60px;height:3px;background:var(--accent);margin-bottom:30px;border-radius:2px}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px 40px}
+.about-grid dt{font-weight:700;color:var(--navy);padding:12px 0;border-bottom:1px solid var(--gray-light)}
+.about-grid dd{padding:12px 0;border-bottom:1px solid var(--gray-light)}
+
+/* Services */
+.services-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
+.service-card{background:var(--white);border:1px solid var(--gray-light);border-radius:8px;padding:32px 24px;text-align:center;transition:box-shadow .3s,transform .3s}
+.service-card:hover{box-shadow:0 8px 30px rgba(26,39,68,.12);transform:translateY(-4px)}
+.service-icon{font-size:2.4rem;margin-bottom:16px}
+.service-card h3{color:var(--navy);font-size:1.1rem;margin-bottom:8px}
+.service-card p{font-size:.9rem;color:var(--gray)}
+
+/* Access */
+.access-box{background:var(--white);border:1px solid var(--gray-light);border-radius:8px;padding:32px;display:flex;gap:32px;flex-wrap:wrap;align-items:center}
+.access-box .icon{font-size:2.4rem}
+.access-info p{margin-bottom:4px}
+.access-info .label{font-weight:700;color:var(--navy);font-size:.85rem;letter-spacing:.05em}
+
+/* Contact */
+.contact-area{text-align:center;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 100%);color:var(--white);border-radius:12px;padding:50px 20px}
+.contact-area .phone{font-size:clamp(1.8rem,5vw,2.8rem);font-weight:700;letter-spacing:.05em;margin:20px 0 10px}
+.contact-area .phone-note{opacity:.8;font-size:.9rem}
+.contact-area .email-line{margin-top:16px;font-size:1rem;opacity:.9}
+
+/* Footer */
+.footer{text-align:center;padding:24px 20px;font-size:.78rem;color:#a0aec0;border-top:1px solid var(--gray-light);background:var(--white)}
+
+/* Responsive */
+@media(max-width:600px){
+  .about-grid{grid-template-columns:1fr}
+  .about-grid dt{border-bottom:none;padding-bottom:0}
+  .about-grid dd{padding-top:0}
+  .nav a{padding:10px 14px;font-size:.8rem}
+  .access-box{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <h1>藤野保温工業株式会社</h1>
+    <p class="subtitle">保温・保冷・断熱工事の専門企業</p>
+  </div>
+  <div class="header-bar"></div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="#about">会社概要</a></li>
+    <li><a href="#services">事業内容</a></li>
+    <li><a href="#access">アクセス</a></li>
+    <li><a href="#contact">お問い合わせ</a></li>
+  </ul>
+</nav>
+
+<section class="section" id="about">
+  <h2 class="section-title">会社概要</h2>
+  <div class="section-bar"></div>
+  <dl class="about-grid">
+    <dt>会社名</dt>
+    <dd>藤野保温工業株式会社</dd>
+    <dt>所在地</dt>
+    <dd>秋田県雄勝郡羽後町野中字水無１９－１</dd>
+    <dt>電話番号</dt>
+    <dd><a href="tel:0183-62-0545">0183-62-0545</a></dd>
+    <dt>業種</dt>
+    <dd>建設業（保温・保冷・断熱工事）</dd>
+  </dl>
+</section>
+
+<section class="section" id="services" style="background:var(--white)">
+  <h2 class="section-title">事業内容</h2>
+  <div class="section-bar"></div>
+  <div class="services-list">
+    <div class="service-card">
+      <div class="service-icon">🔥</div>
+      <h3>保温工事</h3>
+      <p>配管・ダクト・タンクなどの保温工事を行い、熱エネルギーの損失を防ぎます。工場・プラント・ビルなど幅広く対応。</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">❄️</div>
+      <h3>保冷工事</h3>
+      <p>冷凍・冷蔵設備の保冷工事で結露を防止し、設備の効率を最大限に引き出します。</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🛡️</div>
+      <h3>断熱工事</h3>
+      <p>建物や設備の断熱施工により、省エネルギー化と快適な環境づくりに貢献します。</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏭</div>
+      <h3>ラッキング工事</h3>
+      <p>保温材の上から金属板で覆うラッキング工事。耐久性・美観を高め、保温効果を長期間維持します。</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="access">
+  <h2 class="section-title">アクセス</h2>
+  <div class="section-bar"></div>
+  <div class="access-box">
+    <div class="icon">📍</div>
+    <div class="access-info">
+      <p class="label">所在地</p>
+      <p>〒012-1100 秋田県雄勝郡羽後町野中字水無１９－１</p>
+      <p style="margin-top:8px" class="label">電話番号</p>
+      <p><a href="tel:0183-62-0545">0183-62-0545</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="contact-area">
+    <p>お気軽にお問い合わせください</p>
+    <p class="phone"><a href="tel:0183-62-0545" style="color:#fff">☎ 0183-62-0545</a></p>
+    <p class="phone-note">受付時間：平日 8:00〜17:00</p>
+    <p class="email-line">✉ <a href="mailto:info@fujino-hoon-kogyo.co.jp" style="color:#93c5fd">info@fujino-hoon-kogyo.co.jp</a></p>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 藤野保温工業株式会社 All Rights Reserved.</p>
+  <p style="margin-top:4px;opacity:.7">Powered by くるるWeb制作</p>
+</footer>
+
+</body>
+</html>
